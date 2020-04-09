@@ -3,20 +3,87 @@
   padding: 0;
 }
 
-.button {
-  width: 50;
-  height: 50;
-  font-size: 25px;
-  margin: 2px;
-  cursor: pointer;
+/* Fonts, styles & colors */
+.font-main {
+    font-family: "Open Sans", sans-serif;
+}
+
+.font-raleway {
+    font-family: "Raleway", sans-serif;
+}
+
+.font-pop {
+    font-family: "Poppins", sans-serif;
+}
+
+.font-mi {
+    font-family: "Material-Icon";
+}
+
+.font-bold {
+    font-weight: 500;
+}
+
+.calculator {
+  position: absolute;
+  background-color: powderblue;
+  padding: 25px;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
 }
 
 .textview {
-  width: 217px;
-  margin: 5px;
-  font-size: 25px;
+  background-color: black;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  text-align: right;
+  color: white;
+  width: 219px;
+  height: 50px;
+  margin: 0 0 -2px 2px;
+  font-size: 35px;
   padding: 5px;
+
 }
-.big-button {
-    height: 100px;
+
+.btn-white {
+  background-color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-color: grey;
+  width: 60px;
+  height: 50px;
+  font-size: 25px;
+  margin: -5px -5px -10px 0;
+  cursor: pointer;
+}
+
+.btn-grey {
+  background-color: lightgrey;
+  border-style: solid;
+  border-width: 1px;
+  border-color: grey;
+  width: 60px;
+  height: 50px;
+  font-size: 25px;
+  margin: 0 -5px -5px 0;
+  cursor: pointer;
+}
+
+.big-btn {
+  background-color: coral;
+  border-style: solid;
+  border-width: 1px;
+  border-color: grey;
+  width: 58px;
+  height: 195px;
+  font-size: 25px;
+  margin: 1px -5px -4px 0;
+  cursor: pointer;
+}
+
+.bg {
+
 }
