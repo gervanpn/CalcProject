@@ -43,7 +43,6 @@
     padding: 30px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-
 }
 
 .btn-white {
@@ -81,6 +80,17 @@
     margin: 0 -5px -4px 0px;
     cursor: pointer;
     border-bottom-right-radius: 15px;
+}
+.btn-grey:hover {
+    background-color: darkgray;
+}
+
+.btn-white:hover {
+    background-color: ivory;
+}
+
+.big-btn:hover {
+    background-color: chocolate;
 }
 
 .bg {
